@@ -10,3 +10,7 @@ app.get('/', (req, res) => {
 	// Note: __dirname is directory that contains the JavaScript source code. Try logging it and see what you get!
 	// Mine was '/Users/zellwk/Projects/demo-repos/crud-express-mongo' for this app.
 })
+
+app.post('/quotes', (req, res) => {
+	console.log('Hellooooooooooooooooo!')
+})
